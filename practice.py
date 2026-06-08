@@ -55,11 +55,22 @@
 # Input:{‘math’:89,’phy’:80,’chem’:67,’eng’:75}
 # Output:chem
 
-marks = {'math': 89, 'phy': 80, 'chem': 67, 'eng': 75}
-min_key = None
-min_value = None
-for key, value in marks.items():
-    if min_value is None or value < min_value:
-        min_value = value
-        min_key = key
-print(min_key)
+# marks = {'math': 89, 'phy': 80, 'chem': 67, 'eng': 75}
+# min_key = None
+# min_value = None
+# for key, value in marks.items():
+#     if min_value is None or value < min_value:
+#         min_value = value
+#         min_key = key
+# print(min_key)
+
+n=int(input("enter any number"))
+x=0
+y=1
+i=1
+while i<=n:
+    print(x,end=' ')
+    z=x+y
+    x=y
+    y=z
+    i=i+1
