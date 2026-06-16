@@ -110,17 +110,28 @@
 # c1.show()
 # c2.show()
 
-class Employee:
-    def __init__(self, name, salary):
-        self.name = name
-        self.salary = salary
+# class Employee:
+#     def __init__(self, name, salary):
+#         self.name = name
+#         self.salary = salary
 
-    def details(self):
-        print("Name:", self.name)
-        print("Salary:", self.salary)
+#     def details(self):
+#         print("Name:", self.name)
+#         print("Salary:", self.salary)
 
-e1 = Employee("Shubham", 50000)
-e2 = Employee("Rahul", 60000)
+# e1 = Employee("Shubham", 50000)
+# e2 = Employee("Rahul", 60000)
 
-e1.details()
-e2.details()
+# e1.details()
+# e2.details()
+
+class Mobile:
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+
+m1 = Mobile("Samsung", 25000)
+m2 = Mobile("Apple", 80000)
+
+print(m1.brand, m1.price)
+print(m2.brand, m2.price)
