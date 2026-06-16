@@ -97,15 +97,30 @@
 # s1.display()
 
 
-class Car:
-    def __init__(self, brand):
-        self.brand = brand
+# class Car:
+#     def __init__(self, brand):
+#         self.brand = brand
 
-    def show(self):
-        print("Brand:", self.brand)
+#     def show(self):
+#         print("Brand:", self.brand)
 
-c1 = Car("BMW")
-c2 = Car("Audi")
+# c1 = Car("BMW")
+# c2 = Car("Audi")
 
-c1.show()
-c2.show()
+# c1.show()
+# c2.show()
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def details(self):
+        print("Name:", self.name)
+        print("Salary:", self.salary)
+
+e1 = Employee("Shubham", 50000)
+e2 = Employee("Rahul", 60000)
+
+e1.details()
+e2.details()
