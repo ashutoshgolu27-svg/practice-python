@@ -64,13 +64,34 @@
 #         min_key = key
 # print(min_key)
 
-n=int(input("enter any number"))
-x=0
-y=1
-i=1
-while i<=n:
-    print(x,end=' ')
-    z=x+y
-    x=y
-    y=z
-    i=i+1
+# n=int(input("enter any number"))
+# x=0
+# y=1
+# i=1
+# while i<=n:
+#     print(x,end=' ')
+#     z=x+y
+#     x=y
+#     y=z
+#     i=i+1
+
+
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+
+
+s1 = Student("Shubham", 22)
+
+
+print(s1.name)
+print(s1.age)
+
+
+s1.display()
