@@ -125,13 +125,25 @@
 # e1.details()
 # e2.details()
 
-class Mobile:
-    def __init__(self, brand, price):
-        self.brand = brand
-        self.price = price
+# class Mobile:
+#     def __init__(self, brand, price):
+#         self.brand = brand
+#         self.price = price
 
-m1 = Mobile("Samsung", 25000)
-m2 = Mobile("Apple", 80000)
+# m1 = Mobile("Samsung", 25000)
+# m2 = Mobile("Apple", 80000)
 
-print(m1.brand, m1.price)
-print(m2.brand, m2.price)
+# print(m1.brand, m1.price)
+# print(m2.brand, m2.price)
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+s1 = Student("Aman")
+
+print(s1.name)
+
+s1.name = "Shubham"   # Update attribute
+
+print(s1.name)
