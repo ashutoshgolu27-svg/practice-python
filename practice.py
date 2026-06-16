@@ -77,21 +77,35 @@
 
 
 
-class Student:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# class Student:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
-    def display(self):
-        print("Name:", self.name)
-        print("Age:", self.age)
-
-
-s1 = Student("Shubham", 22)
+#     def display(self):
+#         print("Name:", self.name)
+#         print("Age:", self.age)
 
 
-print(s1.name)
-print(s1.age)
+# s1 = Student("Shubham", 22)
 
 
-s1.display()
+# print(s1.name)
+# print(s1.age)
+
+
+# s1.display()
+
+
+class Car:
+    def __init__(self, brand):
+        self.brand = brand
+
+    def show(self):
+        print("Brand:", self.brand)
+
+c1 = Car("BMW")
+c2 = Car("Audi")
+
+c1.show()
+c2.show()
