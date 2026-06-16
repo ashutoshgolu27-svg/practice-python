@@ -136,14 +136,28 @@
 # print(m1.brand, m1.price)
 # print(m2.brand, m2.price)
 
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
+
+# s1 = Student("Aman")
+
+# print(s1.name)
+
+# s1.name = "Shubham"   # Update attribute
+
+# print(s1.name)
+
+
 class Student:
+    count = 0
+
     def __init__(self, name):
         self.name = name
+        Student.count += 1
 
-s1 = Student("Aman")
+s1 = Student("A")
+s2 = Student("B")
+s3 = Student("C")
 
-print(s1.name)
-
-s1.name = "Shubham"   # Update attribute
-
-print(s1.name)
+print("Total Objects:", Student.count)
