@@ -165,18 +165,35 @@
 
 #bank account object....
 
-class BankAccount:
-    def __init__(self, name, balance):
-        self.name = name
-        self.balance = balance
+# class BankAccount:
+#     def __init__(self, name, balance):
+#         self.name = name
+#         self.balance = balance
 
-    def deposit(self, amount):
-        self.balance += amount
+#     def deposit(self, amount):
+#         self.balance += amount
 
-    def show_balance(self):
-        print("Balance:", self.balance)
+#     def show_balance(self):
+#         print("Balance:", self.balance)
 
-acc1 = BankAccount("Shubham", 1000)
+# acc1 = BankAccount("Shubham", 1000)
 
-acc1.deposit(500)
-acc1.show_balance()
+# acc1.deposit(500)
+# acc1.show_balance()
+
+#laptop object..
+
+class Laptop:
+    def __init__(self, brand, ram):
+        self.brand = brand
+        self.ram = ram
+
+    def details(self):
+        print("Brand:", self.brand)
+        print("RAM:", self.ram)
+
+l1 = Laptop("HP", "8GB")
+l2 = Laptop("Dell", "16GB")
+
+l1.details()
+l2.details()
