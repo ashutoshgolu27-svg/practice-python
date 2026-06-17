@@ -215,12 +215,25 @@
 
 #book object...
 
-class Book:
-    def __init__(self, title, author):
-        self.title = title
-        self.author = author
+# class Book:
+#     def __init__(self, title, author):
+#         self.title = title
+#         self.author = author
 
-b1 = Book("Python", "Guido")
+# b1 = Book("Python", "Guido")
 
-print(b1.title)
-print(b1.author)
+# print(b1.title)
+# print(b1.author)
+
+#object without constructor...
+
+class Student:
+    pass
+
+s1 = Student()
+
+s1.name = "Shubham"
+s1.age = 22
+
+print(s1.name)
+print(s1.age)
