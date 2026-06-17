@@ -183,17 +183,31 @@
 
 #laptop object..
 
-class Laptop:
-    def __init__(self, brand, ram):
-        self.brand = brand
-        self.ram = ram
+# class Laptop:
+#     def __init__(self, brand, ram):
+#         self.brand = brand
+#         self.ram = ram
 
-    def details(self):
-        print("Brand:", self.brand)
-        print("RAM:", self.ram)
+#     def details(self):
+#         print("Brand:", self.brand)
+#         print("RAM:", self.ram)
 
-l1 = Laptop("HP", "8GB")
-l2 = Laptop("Dell", "16GB")
+# l1 = Laptop("HP", "8GB")
+# l2 = Laptop("Dell", "16GB")
 
-l1.details()
-l2.details()
+# l1.details()
+# l2.details()
+
+#rectangle object
+
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+r1 = Rectangle(10, 5)
+
+print("Area =", r1.area())
