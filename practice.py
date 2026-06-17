@@ -148,16 +148,35 @@
 
 # print(s1.name)
 
+#count object.........
 
-class Student:
-    count = 0
+# class Student:
+#     count = 0
 
-    def __init__(self, name):
+#     def __init__(self, name):
+#         self.name = name
+#         Student.count += 1
+
+# s1 = Student("A")
+# s2 = Student("B")
+# s3 = Student("C")
+
+# print("Total Objects:", Student.count)
+
+#bank account object....
+
+class BankAccount:
+    def __init__(self, name, balance):
         self.name = name
-        Student.count += 1
+        self.balance = balance
 
-s1 = Student("A")
-s2 = Student("B")
-s3 = Student("C")
+    def deposit(self, amount):
+        self.balance += amount
 
-print("Total Objects:", Student.count)
+    def show_balance(self):
+        print("Balance:", self.balance)
+
+acc1 = BankAccount("Shubham", 1000)
+
+acc1.deposit(500)
+acc1.show_balance()
