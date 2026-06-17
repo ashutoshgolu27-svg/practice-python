@@ -200,14 +200,27 @@
 
 #rectangle object
 
-class Rectangle:
-    def __init__(self, length, width):
-        self.length = length
-        self.width = width
+# class Rectangle:
+#     def __init__(self, length, width):
+#         self.length = length
+#         self.width = width
 
-    def area(self):
-        return self.length * self.width
+#     def area(self):
+#         return self.length * self.width
 
-r1 = Rectangle(10, 5)
+# r1 = Rectangle(10, 5)
 
-print("Area =", r1.area())
+# print("Area =", r1.area())
+
+
+#book object...
+
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+b1 = Book("Python", "Guido")
+
+print(b1.title)
+print(b1.author)
