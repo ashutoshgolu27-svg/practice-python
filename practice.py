@@ -240,13 +240,26 @@
 
 #car object...
 
-class Car:
-    def __init__(self, brand, model):
-        self.brand = brand
-        self.model = model
+# class Car:
+#     def __init__(self, brand, model):
+#         self.brand = brand
+#         self.model = model
 
-    def start(self):
-        print(self.brand, self.model, "started")
+#     def start(self):
+#         print(self.brand, self.model, "started")
 
-c1 = Car("Toyota", "Fortuner")
-c1.start()
+# c1 = Car("Toyota", "Fortuner")
+# c1.start()
+
+#circle object
+
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius * self.radius
+
+c1 = Circle(5)
+
+print("Area =", c1.area())
