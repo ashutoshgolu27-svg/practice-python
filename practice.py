@@ -227,13 +227,26 @@
 
 #object without constructor...
 
-class Student:
-    pass
+# class Student:
+#     pass
 
-s1 = Student()
+# s1 = Student()
 
-s1.name = "Shubham"
-s1.age = 22
+# s1.name = "Shubham"
+# s1.age = 22
 
-print(s1.name)
-print(s1.age)
+# print(s1.name)
+# print(s1.age)
+
+#car object...
+
+class Car:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+    def start(self):
+        print(self.brand, self.model, "started")
+
+c1 = Car("Toyota", "Fortuner")
+c1.start()
