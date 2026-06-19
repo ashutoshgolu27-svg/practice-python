@@ -341,10 +341,26 @@
 
 #calculator object
 
-class Calculator:
-    def add(self, a, b):
-        return a + b
+# class Calculator:
+#     def add(self, a, b):
+#         return a + b
 
-c1 = Calculator()
+# c1 = Calculator()
 
-print(c1.add(10, 20))
+# print(c1.add(10, 20))
+
+
+#movie object 
+
+
+class Movie:
+    def __init__(self, name, rating):
+        self.name = name
+        self.rating = rating
+
+    def show(self):
+        print("Movie:", self.name)
+        print("Rating:", self.rating)
+
+m1 = Movie("KGF", 9.5)
+m1.show()
