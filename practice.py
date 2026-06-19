@@ -253,13 +253,31 @@
 
 #circle object
 
-class Circle:
-    def __init__(self, radius):
-        self.radius = radius
+# class Circle:
+#     def __init__(self, radius):
+#         self.radius = radius
 
-    def area(self):
-        return 3.14 * self.radius * self.radius
+#     def area(self):
+#         return 3.14 * self.radius * self.radius
 
-c1 = Circle(5)
+# c1 = Circle(5)
 
-print("Area =", c1.area())
+# print("Area =", c1.area())
+
+#student marks...
+
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def result(self):
+        if self.marks >= 40:
+            print("Pass")
+        else:
+            print("Fail")
+
+s1 = Student("Shubham", 85)
+
+print("Name:", s1.name)
+s1.result()
