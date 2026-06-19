@@ -328,12 +328,23 @@
 #person object...
 
 
-class Person:
-    def __init__(self, name, city):
-        self.name = name
-        self.city = city
+# class Person:
+#     def __init__(self, name, city):
+#         self.name = name
+#         self.city = city
 
-p1 = Person("Shubham", "Pune")
+# p1 = Person("Shubham", "Pune")
 
-print(p1.name)
-print(p1.city)
+# print(p1.name)
+# print(p1.city)
+
+
+#calculator object
+
+class Calculator:
+    def add(self, a, b):
+        return a + b
+
+c1 = Calculator()
+
+print(c1.add(10, 20))
