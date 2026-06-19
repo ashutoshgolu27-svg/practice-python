@@ -295,18 +295,31 @@
 
 #atm object
 
-class ATM:
-    def __init__(self, balance):
-        self.balance = balance
+# class ATM:
+#     def __init__(self, balance):
+#         self.balance = balance
 
-    def withdraw(self, amount):
-        if amount <= self.balance:
-            self.balance -= amount
-            print("Withdrawal Successful")
-        else:
-            print("Insufficient Balance")
+#     def withdraw(self, amount):
+#         if amount <= self.balance:
+#             self.balance -= amount
+#             print("Withdrawal Successful")
+#         else:
+#             print("Insufficient Balance")
 
-atm = ATM(5000)
+# atm = ATM(5000)
 
-atm.withdraw(2000)
-print("Balance:", atm.balance)
+# atm.withdraw(2000)
+# print("Balance:", atm.balance)
+
+#fan object
+
+
+class Fan:
+    def __init__(self, brand):
+        self.brand = brand
+
+    def on(self):
+        print(self.brand, "Fan is ON")
+
+f1 = Fan("Usha")
+f1.on()
