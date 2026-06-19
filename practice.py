@@ -266,18 +266,29 @@
 
 #student marks...
 
+# class Student:
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
+
+#     def result(self):
+#         if self.marks >= 40:
+#             print("Pass")
+#         else:
+#             print("Fail")
+
+# s1 = Student("Shubham", 85)
+
+# print("Name:", s1.name)
+# s1.result()
+
+#interview point..
+
 class Student:
-    def __init__(self, name, marks):
-        self.name = name
-        self.marks = marks
+    pass
 
-    def result(self):
-        if self.marks >= 40:
-            print("Pass")
-        else:
-            print("Fail")
+s1 = Student()
+s2 = Student()
 
-s1 = Student("Shubham", 85)
-
-print("Name:", s1.name)
-s1.result()
+print(id(s1))
+print(id(s2))
