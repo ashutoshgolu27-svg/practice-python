@@ -284,11 +284,29 @@
 
 #interview point..
 
-class Student:
-    pass
+# class Student:
+#     pass
 
-s1 = Student()
-s2 = Student()
+# s1 = Student()
+# s2 = Student()
 
-print(id(s1))
-print(id(s2))
+# print(id(s1))
+# print(id(s2))
+
+#atm object
+
+class ATM:
+    def __init__(self, balance):
+        self.balance = balance
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+            print("Withdrawal Successful")
+        else:
+            print("Insufficient Balance")
+
+atm = ATM(5000)
+
+atm.withdraw(2000)
+print("Balance:", atm.balance)
