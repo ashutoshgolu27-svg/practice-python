@@ -314,12 +314,26 @@
 #fan object
 
 
-class Fan:
-    def __init__(self, brand):
-        self.brand = brand
+# class Fan:
+#     def __init__(self, brand):
+#         self.brand = brand
 
-    def on(self):
-        print(self.brand, "Fan is ON")
+#     def on(self):
+#         print(self.brand, "Fan is ON")
 
-f1 = Fan("Usha")
-f1.on()
+# f1 = Fan("Usha")
+# f1.on()
+
+
+#person object...
+
+
+class Person:
+    def __init__(self, name, city):
+        self.name = name
+        self.city = city
+
+p1 = Person("Shubham", "Pune")
+
+print(p1.name)
+print(p1.city)
