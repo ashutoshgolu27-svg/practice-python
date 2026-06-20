@@ -422,16 +422,29 @@
 
 #shopping cart
 
-class Cart:
-    def __init__(self):
-        self.items = []
+# class Cart:
+#     def __init__(self):
+#         self.items = []
 
-    def add_item(self, item):
-        self.items.append(item)
+#     def add_item(self, item):
+#         self.items.append(item)
 
-cart = Cart()
+# cart = Cart()
 
-cart.add_item("Laptop")
-cart.add_item("Mouse")
+# cart.add_item("Laptop")
+# cart.add_item("Mouse")
 
-print(cart.items)
+# print(cart.items)
+
+#temperature converter
+
+class Temperature:
+    def __init__(self, celsius):
+        self.celsius = celsius
+
+    def to_fahrenheit(self):
+        return (self.celsius * 9/5) + 32
+
+t1 = Temperature(25)
+
+print(t1.to_fahrenheit())
