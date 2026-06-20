@@ -353,14 +353,27 @@
 #movie object 
 
 
-class Movie:
-    def __init__(self, name, rating):
+# class Movie:
+#     def __init__(self, name, rating):
+#         self.name = name
+#         self.rating = rating
+
+#     def show(self):
+#         print("Movie:", self.name)
+#         print("Rating:", self.rating)
+
+# m1 = Movie("KGF", 9.5)
+# m1.show()
+
+
+#bike object 
+
+class Bike:
+    def __init__(self, name):
         self.name = name
-        self.rating = rating
 
-    def show(self):
-        print("Movie:", self.name)
-        print("Rating:", self.rating)
+b1 = Bike("Royal Enfield")
+b2 = Bike("Pulsar")
 
-m1 = Movie("KGF", 9.5)
-m1.show()
+print(b1.name)
+print(b2.name)
