@@ -378,13 +378,16 @@
 # print(b1.name)
 # print(b2.name)
 
-#simple object creation 
+#employee bonus
 
-class Test:
-    pass
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
 
-obj1 = Test()
-obj2 = Test()
+    def bonus(self):
+        return self.salary * 0.10
 
-print(type(obj1))
-print(type(obj2))
+e1 = Employee("Shubham", 50000)
+
+print("Bonus =", e1.bonus())
