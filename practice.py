@@ -395,14 +395,27 @@
 
 #light bulb 
 
-class Bulb:
-    def turn_on(self):
-        print("Bulb is ON")
+# class Bulb:
+#     def turn_on(self):
+#         print("Bulb is ON")
 
-    def turn_off(self):
-        print("Bulb is OFF")
+#     def turn_off(self):
+#         print("Bulb is OFF")
 
-b1 = Bulb()
+# b1 = Bulb()
 
-b1.turn_on()
-b1.turn_off()
+# b1.turn_on()
+# b1.turn_off()
+
+#student percentage
+
+class Student:
+    def __init__(self, marks):
+        self.marks = marks
+
+    def percentage(self):
+        return self.marks / 500 * 100
+
+s1 = Student(425)
+
+print("Percentage =", s1.percentage())
