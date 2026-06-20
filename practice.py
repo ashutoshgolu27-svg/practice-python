@@ -368,12 +368,23 @@
 
 #bike object 
 
-class Bike:
-    def __init__(self, name):
-        self.name = name
+# class Bike:
+#     def __init__(self, name):
+#         self.name = name
 
-b1 = Bike("Royal Enfield")
-b2 = Bike("Pulsar")
+# b1 = Bike("Royal Enfield")
+# b2 = Bike("Pulsar")
 
-print(b1.name)
-print(b2.name)
+# print(b1.name)
+# print(b2.name)
+
+#simple object creation 
+
+class Test:
+    pass
+
+obj1 = Test()
+obj2 = Test()
+
+print(type(obj1))
+print(type(obj2))
