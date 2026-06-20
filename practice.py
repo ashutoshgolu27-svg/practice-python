@@ -380,14 +380,29 @@
 
 #employee bonus
 
-class Employee:
-    def __init__(self, name, salary):
-        self.name = name
-        self.salary = salary
+# class Employee:
+#     def __init__(self, name, salary):
+#         self.name = name
+#         self.salary = salary
 
-    def bonus(self):
-        return self.salary * 0.10
+#     def bonus(self):
+#         return self.salary * 0.10
 
-e1 = Employee("Shubham", 50000)
+# e1 = Employee("Shubham", 50000)
 
-print("Bonus =", e1.bonus())
+# print("Bonus =", e1.bonus())
+
+
+#light bulb 
+
+class Bulb:
+    def turn_on(self):
+        print("Bulb is ON")
+
+    def turn_off(self):
+        print("Bulb is OFF")
+
+b1 = Bulb()
+
+b1.turn_on()
+b1.turn_off()
