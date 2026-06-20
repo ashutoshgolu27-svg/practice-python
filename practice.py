@@ -409,13 +409,29 @@
 
 #student percentage
 
-class Student:
-    def __init__(self, marks):
-        self.marks = marks
+# class Student:
+#     def __init__(self, marks):
+#         self.marks = marks
 
-    def percentage(self):
-        return self.marks / 500 * 100
+#     def percentage(self):
+#         return self.marks / 500 * 100
 
-s1 = Student(425)
+# s1 = Student(425)
 
-print("Percentage =", s1.percentage())
+# print("Percentage =", s1.percentage())
+
+#shopping cart
+
+class Cart:
+    def __init__(self):
+        self.items = []
+
+    def add_item(self, item):
+        self.items.append(item)
+
+cart = Cart()
+
+cart.add_item("Laptop")
+cart.add_item("Mouse")
+
+print(cart.items)
