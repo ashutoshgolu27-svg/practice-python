@@ -467,12 +467,25 @@
 
 #dog object
 
-class Dog:
-    def __init__(self, name):
-        self.name = name
+# class Dog:
+#     def __init__(self, name):
+#         self.name = name
 
-    def bark(self):
-        print(self.name, "is barking")
+#     def bark(self):
+#         print(self.name, "is barking")
 
-d1 = Dog("Tommy")
-d1.bark()
+# d1 = Dog("Tommy")
+# d1.bark()
+
+#laptop price
+
+class Laptop:
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+
+    def display(self):
+        print(self.brand, self.price)
+
+l1 = Laptop("HP", 55000)
+l1.display()
