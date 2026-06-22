@@ -569,14 +569,27 @@
 
 #object inside list
 
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
+
+# s1 = Student("Aman")
+# s2 = Student("Rahul")
+
+# students = [s1, s2]
+
+# for i in students:
+#     print(i.name)
+
+
+#object passed as arguments
+
 class Student:
     def __init__(self, name):
         self.name = name
 
-s1 = Student("Aman")
-s2 = Student("Rahul")
+def show(student):
+    print(student.name)
 
-students = [s1, s2]
-
-for i in students:
-    print(i.name)
+s1 = Student("Shubham")
+show(s1)
