@@ -559,10 +559,24 @@
 
 #object comparison
 
-class Test:
-    pass
+# class Test:
+#     pass
 
-t1 = Test()
-t2 = Test()
+# t1 = Test()
+# t2 = Test()
 
-print(t1 == t2)
+# print(t1 == t2)
+
+#object inside list
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+s1 = Student("Aman")
+s2 = Student("Rahul")
+
+students = [s1, s2]
+
+for i in students:
+    print(i.name)
