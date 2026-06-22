@@ -544,15 +544,25 @@
 
 #method calling another method
 
-class Student:
-    def __init__(self, name):
-        self.name = name
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
 
-    def greet(self):
-        print("Hello", self.name)
+#     def greet(self):
+#         print("Hello", self.name)
 
-    def display(self):
-        self.greet()
+#     def display(self):
+#         self.greet()
 
-s1 = Student("Shubham")
-s1.display()
+# s1 = Student("Shubham")
+# s1.display()
+
+#object comparison
+
+class Test:
+    pass
+
+t1 = Test()
+t2 = Test()
+
+print(t1 == t2)
