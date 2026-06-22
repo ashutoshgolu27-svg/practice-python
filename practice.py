@@ -584,12 +584,25 @@
 
 #object passed as arguments
 
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
+
+# def show(student):
+#     print(student.name)
+
+# s1 = Student("Shubham")
+# show(s1)
+
+#object returned as function
+
 class Student:
     def __init__(self, name):
         self.name = name
 
-def show(student):
-    print(student.name)
+def create_student():
+    return Student("Shubham")
 
-s1 = Student("Shubham")
-show(s1)
+s1 = create_student()
+
+print(s1.name)
