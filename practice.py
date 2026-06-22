@@ -506,13 +506,25 @@
 
 #hospital patient
 
-class Patient:
-    def __init__(self, name, disease):
-        self.name = name
-        self.disease = disease
+# class Patient:
+#     def __init__(self, name, disease):
+#         self.name = name
+#         self.disease = disease
 
-    def details(self):
-        print(self.name, "-", self.disease)
+#     def details(self):
+#         print(self.name, "-", self.disease)
 
-p1 = Patient("Rahul", "Fever")
-p1.details()
+# p1 = Patient("Rahul", "Fever")
+# p1.details()
+
+#online course
+
+class Course:
+    def __init__(self, course_name):
+        self.course_name = course_name
+
+    def start(self):
+        print(self.course_name, "course started")
+
+c1 = Course("Python")
+c1.start()
