@@ -493,12 +493,26 @@
 
 #atm 
 
-class ATM:
-    def __init__(self, balance):
-        self.balance = balance
+# class ATM:
+#     def __init__(self, balance):
+#         self.balance = balance
 
-    def check_balance(self):
-        print("Available Balance:", self.balance)
+#     def check_balance(self):
+#         print("Available Balance:", self.balance)
 
-a1 = ATM(10000)
-a1.check_balance()
+# a1 = ATM(10000)
+# a1.check_balance()
+
+
+#hospital patient
+
+class Patient:
+    def __init__(self, name, disease):
+        self.name = name
+        self.disease = disease
+
+    def details(self):
+        print(self.name, "-", self.disease)
+
+p1 = Patient("Rahul", "Fever")
+p1.details()
