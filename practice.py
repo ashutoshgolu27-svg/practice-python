@@ -519,12 +519,24 @@
 
 #online course
 
-class Course:
-    def __init__(self, course_name):
-        self.course_name = course_name
+# class Course:
+#     def __init__(self, course_name):
+#         self.course_name = course_name
 
-    def start(self):
-        print(self.course_name, "course started")
+#     def start(self):
+#         print(self.course_name, "course started")
 
-c1 = Course("Python")
-c1.start()
+# c1 = Course("Python")
+# c1.start()
+
+#restaurant order
+
+class Order:
+    def __init__(self, item):
+        self.item = item
+
+    def place_order(self):
+        print(self.item, "ordered successfully")
+
+o1 = Order("Pizza")
+o1.place_order()
