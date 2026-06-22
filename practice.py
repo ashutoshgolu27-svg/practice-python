@@ -531,12 +531,28 @@
 
 #restaurant order
 
-class Order:
-    def __init__(self, item):
-        self.item = item
+# class Order:
+#     def __init__(self, item):
+#         self.item = item
 
-    def place_order(self):
-        print(self.item, "ordered successfully")
+#     def place_order(self):
+#         print(self.item, "ordered successfully")
 
-o1 = Order("Pizza")
-o1.place_order()
+# o1 = Order("Pizza")
+# o1.place_order()
+
+
+#method calling another method
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        print("Hello", self.name)
+
+    def display(self):
+        self.greet()
+
+s1 = Student("Shubham")
+s1.display()
