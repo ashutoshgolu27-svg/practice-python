@@ -479,13 +479,26 @@
 
 #laptop price
 
-class Laptop:
-    def __init__(self, brand, price):
-        self.brand = brand
-        self.price = price
+# class Laptop:
+#     def __init__(self, brand, price):
+#         self.brand = brand
+#         self.price = price
 
-    def display(self):
-        print(self.brand, self.price)
+#     def display(self):
+#         print(self.brand, self.price)
 
-l1 = Laptop("HP", 55000)
-l1.display()
+# l1 = Laptop("HP", 55000)
+# l1.display()
+
+
+#atm 
+
+class ATM:
+    def __init__(self, balance):
+        self.balance = balance
+
+    def check_balance(self):
+        print("Available Balance:", self.balance)
+
+a1 = ATM(10000)
+a1.check_balance()
