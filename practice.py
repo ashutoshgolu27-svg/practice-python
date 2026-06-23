@@ -609,11 +609,25 @@
 
 #interview object
 
-class Demo:
-    pass
+# class Demo:
+#     pass
 
-d1 = Demo()
-d2 = Demo()
+# d1 = Demo()
+# d2 = Demo()
 
-print(id(d1))
-print(id(d2))
+# print(id(d1))
+# print(id(d2))
+
+#constructor method
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def show(self):
+        print("Name:", self.name)
+        print("Salary:", self.salary)
+
+e1 = Employee("Shubham", 50000)
+e1.show()
