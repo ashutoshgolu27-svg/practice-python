@@ -596,13 +596,24 @@
 
 #object returned as function
 
-class Student:
-    def __init__(self, name):
-        self.name = name
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
 
-def create_student():
-    return Student("Shubham")
+# def create_student():
+#     return Student("Shubham")
 
-s1 = create_student()
+# s1 = create_student()
 
-print(s1.name)
+# print(s1.name)
+
+#interview object
+
+class Demo:
+    pass
+
+d1 = Demo()
+d2 = Demo()
+
+print(id(d1))
+print(id(d2))
