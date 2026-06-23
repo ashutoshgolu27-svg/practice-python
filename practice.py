@@ -620,14 +620,26 @@
 
 #constructor method
 
-class Employee:
-    def __init__(self, name, salary):
+# class Employee:
+#     def __init__(self, name, salary):
+#         self.name = name
+#         self.salary = salary
+
+#     def show(self):
+#         print("Name:", self.name)
+#         print("Salary:", self.salary)
+
+# e1 = Employee("Shubham", 50000)
+# e1.show()
+
+#two object different data
+
+class Student:
+    def __init__(self, name):
         self.name = name
-        self.salary = salary
 
-    def show(self):
-        print("Name:", self.name)
-        print("Salary:", self.salary)
+s1 = Student("Aman")
+s2 = Student("Rahul")
 
-e1 = Employee("Shubham", 50000)
-e1.show()
+print(s1.name)
+print(s2.name)
