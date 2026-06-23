@@ -634,12 +634,25 @@
 
 #two object different data
 
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
+
+# s1 = Student("Aman")
+# s2 = Student("Rahul")
+
+# print(s1.name)
+# print(s2.name)
+
+#object attribute delete
+
+
 class Student:
     def __init__(self, name):
         self.name = name
 
-s1 = Student("Aman")
-s2 = Student("Rahul")
+s1 = Student("Shubham")
 
 print(s1.name)
-print(s2.name)
+
+del s1.name
