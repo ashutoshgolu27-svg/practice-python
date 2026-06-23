@@ -670,14 +670,28 @@
 
 #change object variable
 
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
+
+# s1 = Student("Aman")
+
+# print(s1.name)
+
+# s1.name = "Shubham"
+
+# print(s1.name)
+
+#object counter
+
 class Student:
-    def __init__(self, name):
-        self.name = name
+    count = 0
 
-s1 = Student("Aman")
+    def __init__(self):
+        Student.count += 1
 
-print(s1.name)
+s1 = Student()
+s2 = Student()
+s3 = Student()
 
-s1.name = "Shubham"
-
-print(s1.name)
+print(Student.count)
