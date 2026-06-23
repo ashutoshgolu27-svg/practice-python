@@ -659,11 +659,25 @@
 
 #class variable and object
 
+# class Student:
+#     school = "ABC School"
+
+# s1 = Student()
+# s2 = Student()
+
+# print(s1.school)
+# print(s2.school)
+
+#change object variable
+
 class Student:
-    school = "ABC School"
+    def __init__(self, name):
+        self.name = name
 
-s1 = Student()
-s2 = Student()
+s1 = Student("Aman")
 
-print(s1.school)
-print(s2.school)
+print(s1.name)
+
+s1.name = "Shubham"
+
+print(s1.name)
