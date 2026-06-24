@@ -730,8 +730,15 @@
 
 #while loop
 
-i = 1
+# i = 1
 
-while i <= 3:
+# while i <= 3:
+#     print(i)
+#     i += 1
+
+#break method 
+
+for i in range(10):
+    if i == 5:
+        break
     print(i)
-    i += 1
