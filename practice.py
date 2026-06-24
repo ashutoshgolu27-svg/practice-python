@@ -705,9 +705,20 @@
 
 #else statement find smaller value
 
-x = 2
+# x = 2
 
-if x > 5:
-    print("Greater")
+# if x > 5:
+#     print("Greater")
+# else:
+#     print("Smaller")
+
+#elif statement
+
+x = 0
+
+if x > 0:
+    print("Positive")
+elif x == 0:
+    print("Zero")
 else:
-    print("Smaller")
+    print("Negative")
