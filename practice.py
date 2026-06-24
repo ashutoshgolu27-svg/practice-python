@@ -725,5 +725,13 @@
 
 #for loop
 
-for i in range(5):
+# for i in range(5):
+#     print(i)
+
+#while loop
+
+i = 1
+
+while i <= 3:
     print(i)
+    i += 1
