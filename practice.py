@@ -684,14 +684,21 @@
 
 #object counter
 
-class Student:
-    count = 0
+# class Student:
+#     count = 0
 
-    def __init__(self):
-        Student.count += 1
+#     def __init__(self):
+#         Student.count += 1
 
-s1 = Student()
-s2 = Student()
-s3 = Student()
+# s1 = Student()
+# s2 = Student()
+# s3 = Student()
 
-print(Student.count)
+# print(Student.count)
+
+#if statement
+
+x = 10
+
+if x > 5:
+    print("x is greater than 5")
