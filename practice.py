@@ -696,9 +696,18 @@
 
 # print(Student.count)
 
-#if statement
+#if statement find greater value
 
-x = 10
+# x = 10
+
+# if x > 5:
+#     print("x is greater than 5")
+
+#else statement find smaller value
+
+x = 2
 
 if x > 5:
-    print("x is greater than 5")
+    print("Greater")
+else:
+    print("Smaller")
