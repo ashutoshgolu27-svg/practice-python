@@ -766,5 +766,10 @@
 
 #find python indexing with slicing
 
-s = "PYTHON"
-print(s[1:4])
+# s = "PYTHON"
+# print(s[1:4])
+
+#find 2nd and 4th element with slicing
+
+l = [5, 10, 15, 20, 25, 30]
+print(l[1:4])
