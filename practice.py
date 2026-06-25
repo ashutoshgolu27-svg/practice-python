@@ -760,5 +760,11 @@
 
 #slice 
 
-a = [10, 20, 30, 40, 50]
-print(a[1:4])
+# a = [10, 20, 30, 40, 50]
+# print(a[1:4])
+
+
+#find python indexing with slicing
+
+s = "PYTHON"
+print(s[1:4])
