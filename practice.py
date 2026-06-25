@@ -771,5 +771,11 @@
 
 #find 2nd and 4th element with slicing
 
-l = [5, 10, 15, 20, 25, 30]
-print(l[1:4])
+# l = [5, 10, 15, 20, 25, 30]
+# print(l[1:4])
+
+#full list copy
+
+l = [1, 2, 3, 4]
+x = l[:]
+print(x)
