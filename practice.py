@@ -776,6 +776,11 @@
 
 #full list copy
 
-l = [1, 2, 3, 4]
-x = l[:]
-print(x)
+# l = [1, 2, 3, 4]
+# x = l[:]
+# print(x)
+
+#find 2 to last element
+
+l = [10, 20, 30, 40, 50]
+print(l[2:])
