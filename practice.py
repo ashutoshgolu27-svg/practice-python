@@ -782,5 +782,11 @@
 
 #find 2 to last element
 
-l = [10, 20, 30, 40, 50]
-print(l[2:])
+# l = [10, 20, 30, 40, 50]
+# print(l[2:])
+
+#find alternative element
+
+
+l = [10, 20, 30, 40, 50, 60]
+print(l[::2])
