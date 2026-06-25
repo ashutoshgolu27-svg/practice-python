@@ -793,5 +793,11 @@
 
 #revrese slicing
 
-l = [1, 2, 3, 4, 5]
-print(l[::-1])
+# l = [1, 2, 3, 4, 5]
+# print(l[::-1])
+
+
+#how to reverse string 
+
+s = "python"
+print(s[::-1])
