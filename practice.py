@@ -809,5 +809,10 @@
 
 #find odd index element
 
-a = [10,20,30,40,50,60]
-print(a[1::2])
+# a = [10,20,30,40,50,60]
+# print(a[1::2])
+
+#how to get last three element 
+
+a = [1,2,3,4,5,6]
+print(a[-3:])
