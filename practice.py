@@ -799,5 +799,10 @@
 
 #how to reverse string 
 
-s = "python"
-print(s[::-1])
+# s = "python"
+# print(s[::-1])
+
+#find alphabet words
+
+s = "ABCDEFGHIJ"
+print(s[1:8:2])
