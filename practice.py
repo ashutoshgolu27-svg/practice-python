@@ -804,5 +804,10 @@
 
 #find alphabet words
 
-s = "ABCDEFGHIJ"
-print(s[1:8:2])
+# s = "ABCDEFGHIJ"
+# print(s[1:8:2])
+
+#find odd index element
+
+a = [10,20,30,40,50,60]
+print(a[1::2])
