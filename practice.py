@@ -819,5 +819,10 @@
 
 #negative index count from end
 
-a = [10,20,30]
-print(a[-1])
+# a = [10,20,30]
+# print(a[-1])
+
+#reverse last 2 element
+
+a = [1,2,3,4,5,6]
+print(a[::-2])
