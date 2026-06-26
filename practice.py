@@ -814,5 +814,10 @@
 
 #how to get last three element 
 
-a = [1,2,3,4,5,6]
-print(a[-3:])
+# a = [1,2,3,4,5,6]
+# print(a[-3:])
+
+#negative index count from end
+
+a = [10,20,30]
+print(a[-1])
