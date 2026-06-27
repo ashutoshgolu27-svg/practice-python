@@ -842,8 +842,14 @@
 
 #delete element using slicing
 
-numbers = [10,20,30,40,50]
+# numbers = [10,20,30,40,50]
 
-del numbers[1:4]
+# del numbers[1:4]
 
-print(numbers)
+# print(numbers)
+
+#slice a tuple
+
+t = (1,2,3,4,5)
+
+print(t[1:4])
