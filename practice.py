@@ -850,6 +850,12 @@
 
 #slice a tuple
 
-t = (1,2,3,4,5)
+# t = (1,2,3,4,5)
 
-print(t[1:4])
+# print(t[1:4])
+
+#empty slice
+
+numbers = [10,20,30]
+
+print(numbers[2:1])
