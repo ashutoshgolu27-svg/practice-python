@@ -834,8 +834,16 @@
 
 #replacement elemnt using slicing
 
+# numbers = [10,20,30,40,50]
+
+# numbers[1:3] = [100,200]
+
+# print(numbers)
+
+#delete element using slicing
+
 numbers = [10,20,30,40,50]
 
-numbers[1:3] = [100,200]
+del numbers[1:4]
 
 print(numbers)
