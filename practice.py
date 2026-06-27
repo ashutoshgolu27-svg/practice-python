@@ -829,5 +829,13 @@
 
 #can slicing use tuple
 
-t = (10,20,30,40)
-print(t[1:3])
+# t = (10,20,30,40)
+# print(t[1:3])
+
+#replacement elemnt using slicing
+
+numbers = [10,20,30,40,50]
+
+numbers[1:3] = [100,200]
+
+print(numbers)
