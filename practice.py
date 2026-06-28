@@ -891,9 +891,16 @@
 
 #sum of 1st 10 no 
 
-total = 0
+# total = 0
 
-for i in range(1, 11):
-    total += i
+# for i in range(1, 11):
+#     total += i
 
-print(total)
+# print(total)
+
+#list example
+
+fruits = ["Apple", "Banana", "Mango"]
+
+print(fruits)
+print(fruits[1])
