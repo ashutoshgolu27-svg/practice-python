@@ -884,7 +884,16 @@
 
 #multiply table
 
-num = 5
+# num = 5
+
+# for i in range(1, 11):
+#     print(num, "x", i, "=", num * i)
+
+#sum of 1st 10 no 
+
+total = 0
 
 for i in range(1, 11):
-    print(num, "x", i, "=", num * i)
+    total += i
+
+print(total)
