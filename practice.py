@@ -856,6 +856,13 @@
 
 #empty slice
 
-numbers = [10,20,30]
+# numbers = [10,20,30]
 
-print(numbers[2:1])
+# print(numbers[2:1])
+
+#addition to two nos..
+
+a = 10
+b = 20
+
+print("Sum =", a + b)
