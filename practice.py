@@ -869,5 +869,15 @@
 
 #user input
 
-name = input("Enter your name: ")
-print("Welcome", name)
+# name = input("Enter your name: ")
+# print("Welcome", name)
+
+#largest number
+
+a = 30
+b = 50
+
+if a > b:
+    print(a)
+else:
+    print(b)
