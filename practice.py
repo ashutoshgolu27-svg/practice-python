@@ -874,10 +874,17 @@
 
 #largest number
 
-a = 30
-b = 50
+# a = 30
+# b = 50
 
-if a > b:
-    print(a)
-else:
-    print(b)
+# if a > b:
+#     print(a)
+# else:
+#     print(b)
+
+#multiply table
+
+num = 5
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
