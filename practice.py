@@ -900,7 +900,16 @@
 
 #list example
 
-fruits = ["Apple", "Banana", "Mango"]
+# fruits = ["Apple", "Banana", "Mango"]
 
-print(fruits)
-print(fruits[1])
+# print(fruits)
+# print(fruits[1])
+
+#fibonacci series
+
+a = 0
+b = 1
+
+for i in range(10):
+    print(a, end=" ")
+    a, b = b, a + b
