@@ -928,10 +928,17 @@
 
 #factorials
 
-num = 5
-fact = 1
+# num = 5
+# fact = 1
 
-for i in range(1, num + 1):
-    fact *= i
+# for i in range(1, num + 1):
+#     fact *= i
 
-print(fact)
+# print(fact)
+
+#function with arguments
+
+def add(a, b):
+    return a + b
+
+print(add(10, 20))
