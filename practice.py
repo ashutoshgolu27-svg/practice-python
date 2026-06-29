@@ -938,7 +938,14 @@
 
 #function with arguments
 
-def add(a, b):
-    return a + b
+# def add(a, b):
+#     return a + b
 
-print(add(10, 20))
+# print(add(10, 20))
+
+
+#set examples
+
+numbers = {1, 2, 3, 2, 1}
+
+print(numbers)
