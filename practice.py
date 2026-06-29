@@ -916,12 +916,22 @@
 
 #count vowels
 
-text = "Python"
+# text = "Python"
 
-count = 0
+# count = 0
 
-for ch in text.lower():
-    if ch in "aeiou":
-        count += 1
+# for ch in text.lower():
+#     if ch in "aeiou":
+#         count += 1
 
-print(count)
+# print(count)
+
+#factorials
+
+num = 5
+fact = 1
+
+for i in range(1, num + 1):
+    fact *= i
+
+print(fact)
