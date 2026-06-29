@@ -946,6 +946,14 @@
 
 #set examples
 
-numbers = {1, 2, 3, 2, 1}
+# numbers = {1, 2, 3, 2, 1}
+
+# print(numbers)
+
+#list insert
+
+numbers = [10, 20, 40]
+
+numbers.insert(2, 30)
 
 print(numbers)
