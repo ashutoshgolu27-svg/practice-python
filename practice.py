@@ -972,6 +972,13 @@
 
 #list comprehension
 
-square = [x*x for x in range(5)]
+# square = [x*x for x in range(5)]
 
-print(square)
+# print(square)
+
+#enumerate
+
+fruits = ["Apple", "Banana"]
+
+for i, fruit in enumerate(fruits):
+    print(i, fruit)
