@@ -960,12 +960,18 @@
 
 #inheritance
 
-class Animal:
-    def sound(self):
-        print("Animal Sound")
+# class Animal:
+#     def sound(self):
+#         print("Animal Sound")
 
-class Dog(Animal):
-    pass
+# class Dog(Animal):
+#     pass
 
-obj = Dog()
-obj.sound()
+# obj = Dog()
+# obj.sound()
+
+#list comprehension
+
+square = [x*x for x in range(5)]
+
+print(square)
