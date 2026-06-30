@@ -952,8 +952,20 @@
 
 #list insert
 
-numbers = [10, 20, 40]
+# numbers = [10, 20, 40]
 
-numbers.insert(2, 30)
+# numbers.insert(2, 30)
 
-print(numbers)
+# print(numbers)
+
+#inheritance
+
+class Animal:
+    def sound(self):
+        print("Animal Sound")
+
+class Dog(Animal):
+    pass
+
+obj = Dog()
+obj.sound()
