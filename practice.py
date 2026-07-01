@@ -985,7 +985,16 @@
 
 #zip function
 
-names = ["A", "B"]
-marks = [90, 80]
+# names = ["A", "B"]
+# marks = [90, 80]
 
-print(list(zip(names, marks)))
+# print(list(zip(names, marks)))
+
+#swap two numbers
+
+a = 10
+b = 20
+
+a, b = b, a
+
+print(a, b)
