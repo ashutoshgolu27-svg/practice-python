@@ -978,7 +978,14 @@
 
 #enumerate
 
-fruits = ["Apple", "Banana"]
+# fruits = ["Apple", "Banana"]
 
-for i, fruit in enumerate(fruits):
-    print(i, fruit)
+# for i, fruit in enumerate(fruits):
+#     print(i, fruit)
+
+#zip function
+
+names = ["A", "B"]
+marks = [90, 80]
+
+print(list(zip(names, marks)))
