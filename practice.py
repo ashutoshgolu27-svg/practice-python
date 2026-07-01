@@ -1001,7 +1001,13 @@
 
 #find max num
 
-a = 15
-b = 30
+# a = 15
+# b = 30
 
-print(max(a, b))
+# print(max(a, b))
+
+#sum of list
+
+numbers = [10, 20, 30, 40]
+
+print(sum(numbers))
