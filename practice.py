@@ -1008,6 +1008,11 @@
 
 #sum of list
 
-numbers = [10, 20, 30, 40]
+# numbers = [10, 20, 30, 40]
 
-print(sum(numbers))
+# print(sum(numbers))
+
+#square number
+
+for i in range(1, 6):
+    print(i ** 2)
