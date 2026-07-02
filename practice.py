@@ -1048,9 +1048,17 @@
 
 #check even or odd numbers
 
-num = 12
+# num = 12
 
-if num % 2 == 0:
-    print("Even")
-else:
-    print("Odd")
+# if num % 2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+#largest of three number
+
+a = 10
+b = 25
+c = 15
+
+print(max(a, b, c))
