@@ -1031,6 +1031,12 @@
 
 #random number 
 
-import random
+# import random
 
-print(random.randint(1, 10))
+# print(random.randint(1, 10))
+
+#remove duplicates
+
+numbers = [1, 2, 2, 3, 4, 4]
+
+print(list(set(numbers)))
