@@ -1025,6 +1025,12 @@
 
 #count list elements
 
-fruits = ["Apple", "Banana", "Mango", "Orange"]
+# fruits = ["Apple", "Banana", "Mango", "Orange"]
 
-print(len(fruits))
+# print(len(fruits))
+
+#random number 
+
+import random
+
+print(random.randint(1, 10))
