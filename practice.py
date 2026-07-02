@@ -1037,6 +1037,11 @@
 
 #remove duplicates
 
-numbers = [1, 2, 2, 3, 4, 4]
+# numbers = [1, 2, 2, 3, 4, 4]
 
-print(list(set(numbers)))
+# print(list(set(numbers)))
+
+#cube numbers
+
+for i in range(1, 6):
+    print(i ** 3)
