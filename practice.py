@@ -1019,6 +1019,12 @@
 
 #check data types
 
-x = 25.5
+# x = 25.5
 
-print(type(x))
+# print(type(x))
+
+#count list elements
+
+fruits = ["Apple", "Banana", "Mango", "Orange"]
+
+print(len(fruits))
