@@ -1014,5 +1014,11 @@
 
 #square number
 
-for i in range(1, 6):
-    print(i ** 2)
+# for i in range(1, 6):
+#     print(i ** 2)
+
+#check data types
+
+x = 25.5
+
+print(type(x))
