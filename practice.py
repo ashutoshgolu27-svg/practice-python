@@ -1057,8 +1057,19 @@
 
 #largest of three number
 
-a = 10
-b = 25
-c = 15
+# a = 10
+# b = 25
+# c = 15
 
-print(max(a, b, c))
+# print(max(a, b, c))
+
+#check positive negative or zero
+
+num = -8
+
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Zero")
