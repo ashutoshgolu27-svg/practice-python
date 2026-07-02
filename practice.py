@@ -1043,5 +1043,14 @@
 
 #cube numbers
 
-for i in range(1, 6):
-    print(i ** 3)
+# for i in range(1, 6):
+#     print(i ** 3)
+
+#check even or odd numbers
+
+num = 12
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
