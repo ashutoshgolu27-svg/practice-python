@@ -1065,11 +1065,15 @@
 
 #check positive negative or zero
 
-num = -8
+# num = -8
 
-if num > 0:
-    print("Positive")
-elif num < 0:
-    print("Negative")
-else:
-    print("Zero")
+# if num > 0:
+#     print("Positive")
+# elif num < 0:
+#     print("Negative")
+# else:
+#     print("Zero")
+
+#find ASCII value
+
+print(ord('A'))
