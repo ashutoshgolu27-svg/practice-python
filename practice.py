@@ -1076,4 +1076,10 @@
 
 #find ASCII value
 
-print(ord('A'))
+# print(ord('A'))
+
+#generate random float
+
+import random
+
+print(round(random.random(), 2))
