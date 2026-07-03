@@ -1095,6 +1095,11 @@
 
 #split string
 
-text = "Python is Easy"
+# text = "Python is Easy"
 
-print(text.split())
+# print(text.split())
+
+#join strings
+words = ["Python", "is", "Easy"]
+
+print(" ".join(words))
