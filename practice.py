@@ -1080,6 +1080,15 @@
 
 #generate random float
 
-import random
+# import random
 
-print(round(random.random(), 2))
+# print(round(random.random(), 2))
+
+#check palindrom
+
+text = "madam"
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
