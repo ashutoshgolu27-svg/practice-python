@@ -1100,6 +1100,12 @@
 # print(text.split())
 
 #join strings
-words = ["Python", "is", "Easy"]
+# words = ["Python", "is", "Easy"]
 
-print(" ".join(words))
+# print(" ".join(words))
+
+#count occurance in lists
+
+numbers = [1, 2, 2, 3, 2, 4]
+
+print(numbers.count(2))
