@@ -1118,9 +1118,14 @@
 
 #check leap year
 
-year = 2024
+# year = 2024
 
-if year % 4 == 0:
-    print("Leap Year")
-else:
-    print("Not Leap Year")
+# if year % 4 == 0:
+#     print("Leap Year")
+# else:
+#     print("Not Leap Year")
+
+#print nu 10 to 01
+
+for i in range(10, 0, -1):
+    print(i)
