@@ -1112,6 +1112,15 @@
 
 #convert string into integer
 
-num = "250"
+# num = "250"
 
-print(int(num))
+# print(int(num))
+
+#check leap year
+
+year = 2024
+
+if year % 4 == 0:
+    print("Leap Year")
+else:
+    print("Not Leap Year")
