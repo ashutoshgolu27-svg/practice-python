@@ -1127,5 +1127,14 @@
 
 #print nu 10 to 01
 
-for i in range(10, 0, -1):
-    print(i)
+# for i in range(10, 0, -1):
+#     print(i)
+
+#sum of first 10 number
+
+total = 0
+
+for i in range(1, 11):
+    total += i
+
+print(total)
