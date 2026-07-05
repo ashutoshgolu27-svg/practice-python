@@ -1106,6 +1106,12 @@
 
 #count occurance in lists
 
-numbers = [1, 2, 2, 3, 2, 4]
+# numbers = [1, 2, 2, 3, 2, 4]
 
-print(numbers.count(2))
+# print(numbers.count(2))
+
+#convert string into integer
+
+num = "250"
+
+print(int(num))
