@@ -1201,6 +1201,12 @@
 
 #check strings start with
 
-text = "Python Programming"
+# text = "Python Programming"
 
-print(text.startswith("Python"))
+# print(text.startswith("Python"))
+
+#check string end with
+
+text = "Python.py"
+
+print(text.endswith(".py"))
