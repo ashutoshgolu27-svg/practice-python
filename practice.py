@@ -1180,7 +1180,14 @@
 
 #find common element
 
-a = [1, 2, 3, 4]
-b = [3, 4, 5, 6]
+# a = [1, 2, 3, 4]
+# b = [3, 4, 5, 6]
 
-print(list(set(a) & set(b)))
+# print(list(set(a) & set(b)))
+
+#merge two lists
+
+list1 = [1, 2]
+list2 = [3, 4]
+
+print(list1 + list2)
