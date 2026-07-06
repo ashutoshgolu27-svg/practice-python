@@ -1187,7 +1187,14 @@
 
 #merge two lists
 
-list1 = [1, 2]
-list2 = [3, 4]
+# list1 = [1, 2]
+# list2 = [3, 4]
 
-print(list1 + list2)
+# print(list1 + list2)
+
+#count characters
+
+text = "Python"
+
+for ch in text:
+    print(ch)
