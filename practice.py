@@ -1141,11 +1141,20 @@
 
 #check prime no or not prime
 
-num = 17
+# num = 17
 
-for i in range(2, num):
-    if num % i == 0:
-        print("Not Prime")
-        break
-else:
-    print("Prime")
+# for i in range(2, num):
+#     if num % i == 0:
+#         print("Not Prime")
+#         break
+# else:
+#     print("Prime")
+
+num = 987654
+count = 0
+
+while num > 0:
+    count += 1
+    num //= 10
+
+print(count)
