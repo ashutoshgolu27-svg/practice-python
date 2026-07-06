@@ -1219,6 +1219,16 @@
 
 #find index
 
-text = "Python"
+# text = "Python"
 
-print(text.index("h"))
+# print(text.index("h"))
+
+#dictionary key
+
+student = {
+    "name": "Rahul",
+    "age": 20,
+    "city": "Delhi"
+}
+
+print(student.keys())
