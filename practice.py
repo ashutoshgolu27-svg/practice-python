@@ -1132,9 +1132,20 @@
 
 #sum of first 10 number
 
-total = 0
+# total = 0
 
-for i in range(1, 11):
-    total += i
+# for i in range(1, 11):
+#     total += i
 
-print(total)
+# print(total)
+
+#check prime no or not prime
+
+num = 17
+
+for i in range(2, num):
+    if num % i == 0:
+        print("Not Prime")
+        break
+else:
+    print("Prime")
