@@ -1150,11 +1150,22 @@
 # else:
 #     print("Prime")
 
-num = 987654
-count = 0
+# num = 987654
+# count = 0
 
-while num > 0:
-    count += 1
-    num //= 10
+# while num > 0:
+#     count += 1
+#     num //= 10
 
-print(count)
+# print(count)
+
+#check armstrong or not number
+
+num = 153
+
+total = sum(int(digit) ** 3 for digit in str(num))
+
+if total == num:
+    print("Armstrong Number")
+else:
+    print("Not Armstrong")
