@@ -1172,8 +1172,15 @@
 
 #find factor
 
-num = 12
+# num = 12
 
-for i in range(1, num + 1):
-    if num % i == 0:
-        print(i)
+# for i in range(1, num + 1):
+#     if num % i == 0:
+#         print(i)
+
+#find common element
+
+a = [1, 2, 3, 4]
+b = [3, 4, 5, 6]
+
+print(list(set(a) & set(b)))
