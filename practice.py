@@ -1161,11 +1161,19 @@
 
 #check armstrong or not number
 
-num = 153
+# num = 153
 
-total = sum(int(digit) ** 3 for digit in str(num))
+# total = sum(int(digit) ** 3 for digit in str(num))
 
-if total == num:
-    print("Armstrong Number")
-else:
-    print("Not Armstrong")
+# if total == num:
+#     print("Armstrong Number")
+# else:
+#     print("Not Armstrong")
+
+#find factor
+
+num = 12
+
+for i in range(1, num + 1):
+    if num % i == 0:
+        print(i)
