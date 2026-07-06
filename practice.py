@@ -1207,6 +1207,12 @@
 
 #check string end with
 
-text = "Python.py"
+# text = "Python.py"
 
-print(text.endswith(".py"))
+# print(text.endswith(".py"))
+
+#remove spaces
+
+text = "  Hello Python  "
+
+print(text.strip())
