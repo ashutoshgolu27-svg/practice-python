@@ -1213,6 +1213,12 @@
 
 #remove spaces
 
-text = "  Hello Python  "
+# text = "  Hello Python  "
 
-print(text.strip())
+# print(text.strip())
+
+#find index
+
+text = "Python"
+
+print(text.index("h"))
