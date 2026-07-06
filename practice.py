@@ -1194,7 +1194,13 @@
 
 #count characters
 
-text = "Python"
+# text = "Python"
 
-for ch in text:
-    print(ch)
+# for ch in text:
+#     print(ch)
+
+#check strings start with
+
+text = "Python Programming"
+
+print(text.startswith("Python"))
