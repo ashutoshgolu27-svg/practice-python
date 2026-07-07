@@ -1225,10 +1225,20 @@
 
 #dictionary key
 
+# student = {
+#     "name": "Rahul",
+#     "age": 20,
+#     "city": "Delhi"
+# }
+
+# print(student.keys())
+
+#dictionary value
+
 student = {
     "name": "Rahul",
     "age": 20,
     "city": "Delhi"
 }
 
-print(student.keys())
+print(student.values())
