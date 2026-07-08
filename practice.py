@@ -1260,7 +1260,19 @@
 
 #exception handling
 
-try:
-    print(10/0)
-except ZeroDivisionError:
-    print("Division by zero is not allowed")
+# try:
+#     print(10/0)
+# except ZeroDivisionError:
+#     print("Division by zero is not allowed")
+
+#inheritance
+
+class Animal:
+    def sound(self):
+        print("Animal Sound")
+
+class Dog(Animal):
+    pass
+
+obj = Dog()
+obj.sound()
