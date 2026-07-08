@@ -1254,6 +1254,13 @@
 
 #file write
 
-with open("demo.txt", "w") as file:
-    file.write("Hello")
-print("File Created")
+# with open("demo.txt", "w") as file:
+#     file.write("Hello")
+# print("File Created")
+
+#exception handling
+
+try:
+    print(10/0)
+except ZeroDivisionError:
+    print("Division by zero is not allowed")
