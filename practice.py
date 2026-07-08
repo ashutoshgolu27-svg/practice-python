@@ -1244,10 +1244,16 @@
 # print(student.values())
 
 #dictionary key
-student = {
-    "name": "Rahul",
-    "age": 20,
-    "city": "Delhi"
-}
+# student = {
+#     "name": "Rahul",
+#     "age": 20,
+#     "city": "Delhi"
+# }
 
-print(student.keys())
+# print(student.keys())
+
+#file write
+
+with open("demo.txt", "w") as file:
+    file.write("Hello")
+print("File Created")
