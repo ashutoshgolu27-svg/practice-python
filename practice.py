@@ -1306,8 +1306,17 @@
 
 #file handling
 
-file = open("demo.txt", "w")
+# file = open("demo.txt", "w")
 
-file.write("Hello Python")
+# file.write("Hello Python")
 
-file.close()
+# file.close()
+
+#numpy
+
+import numpy as np
+
+arr = np.array([1,2,3,4])
+
+print(arr)
+print(arr.mean())
