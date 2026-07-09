@@ -1299,7 +1299,15 @@
 
 #exceptional handling
 
-try:
-    print(10/0)
-except ZeroDivisionError:
-    print("Cannot divide by zero")
+# try:
+#     print(10/0)
+# except ZeroDivisionError:
+#     print("Cannot divide by zero")
+
+#file handling
+
+file = open("demo.txt", "w")
+
+file.write("Hello Python")
+
+file.close()
