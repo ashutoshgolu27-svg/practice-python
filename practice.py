@@ -1293,6 +1293,13 @@
 
 #lambda func
 
-square = lambda x: x*x
+# square = lambda x: x*x
 
-print(square(5))
+# print(square(5))
+
+#exceptional handling
+
+try:
+    print(10/0)
+except ZeroDivisionError:
+    print("Cannot divide by zero")
