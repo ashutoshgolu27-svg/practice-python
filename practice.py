@@ -1267,12 +1267,18 @@
 
 #inheritance
 
-class Animal:
-    def sound(self):
-        print("Animal Sound")
+# class Animal:
+#     def sound(self):
+#         print("Animal Sound")
 
-class Dog(Animal):
-    pass
+# class Dog(Animal):
+#     pass
 
-obj = Dog()
-obj.sound()
+# obj = Dog()
+# obj.sound()
+
+#tuple
+
+data = (10, 20, 30)
+
+print(data[1])
