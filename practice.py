@@ -1279,6 +1279,14 @@
 
 #tuple
 
-data = (10, 20, 30)
+# data = (10, 20, 30)
 
-print(data[1])
+# print(data[1])
+
+#dictionary
+student = {
+    "Name": "Shubham",
+    "Age": 25
+}
+
+print(student["Name"])
