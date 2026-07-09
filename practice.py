@@ -1284,9 +1284,15 @@
 # print(data[1])
 
 #dictionary
-student = {
-    "Name": "Shubham",
-    "Age": 25
-}
+# student = {
+#     "Name": "Shubham",
+#     "Age": 25
+# }
 
-print(student["Name"])
+# print(student["Name"])
+
+#lambda func
+
+square = lambda x: x*x
+
+print(square(5))
