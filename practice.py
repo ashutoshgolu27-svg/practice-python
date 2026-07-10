@@ -1330,9 +1330,18 @@
 # print(result)
 
 #zip function
-name = ["A","B","C"]
-marks = [80,90,70]
+# name = ["A","B","C"]
+# marks = [80,90,70]
 
-result = list(zip(name, marks))
+# result = list(zip(name, marks))
 
-print(result)
+# print(result)
+
+#factorial using loop
+num = 5
+fact = 1
+
+for i in range(1, num + 1):
+    fact *= i
+
+print(fact)
