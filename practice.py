@@ -1323,8 +1323,16 @@
 
 #filter functions
 
-nums = [1,2,3,4,5,6]
+# nums = [1,2,3,4,5,6]
 
-result = list(filter(lambda x:x%2==0, nums))
+# result = list(filter(lambda x:x%2==0, nums))
+
+# print(result)
+
+#zip function
+name = ["A","B","C"]
+marks = [80,90,70]
+
+result = list(zip(name, marks))
 
 print(result)
