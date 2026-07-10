@@ -1347,18 +1347,24 @@
 # print(fact)
 
 #matrix addition
-A = [[1, 2],
-     [3, 4]]
+# A = [[1, 2],
+#      [3, 4]]
 
-B = [[5, 6],
-     [7, 8]]
+# B = [[5, 6],
+#      [7, 8]]
 
-result = []
+# result = []
 
-for i in range(2):
-    row = []
-    for j in range(2):
-        row.append(A[i][j] + B[i][j])
-    result.append(row)
+# for i in range(2):
+#     row = []
+#     for j in range(2):
+#         row.append(A[i][j] + B[i][j])
+#     result.append(row)
 
-print(result)
+# print(result)
+
+#find character frequency
+text = "python"
+
+for ch in text:
+    print(ch, "=", text.count(ch))
