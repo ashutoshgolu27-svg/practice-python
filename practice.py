@@ -1314,9 +1314,17 @@
 
 #numpy
 
-import numpy as np
+# import numpy as np
 
-arr = np.array([1,2,3,4])
+# arr = np.array([1,2,3,4])
 
-print(arr)
-print(arr.mean())
+# print(arr)
+# print(arr.mean())
+
+#filter functions
+
+nums = [1,2,3,4,5,6]
+
+result = list(filter(lambda x:x%2==0, nums))
+
+print(result)
