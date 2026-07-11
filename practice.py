@@ -1379,9 +1379,17 @@
 # print("Percentage:", percentage)
 
 #merge two lists
-list1 = [1, 2, 3]
-list2 = [4, 5, 6]
+# list1 = [1, 2, 3]
+# list2 = [4, 5, 6]
 
-result = list1 + list2
+# result = list1 + list2
 
-print(result)
+# print(result)
+
+#print date abd time
+
+from datetime import datetime
+
+now = datetime.now()
+
+print(now)
