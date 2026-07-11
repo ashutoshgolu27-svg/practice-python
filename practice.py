@@ -1364,7 +1364,16 @@
 # print(result)
 
 #find character frequency
-text = "python"
+# text = "python"
 
-for ch in text:
-    print(ch, "=", text.count(ch))
+# for ch in text:
+#     print(ch, "=", text.count(ch))
+
+#student percentage
+name = "Rahul"
+marks = [80, 90, 70, 85, 95]
+
+percentage = sum(marks) / len(marks)
+
+print("Name:", name)
+print("Percentage:", percentage)
