@@ -1388,8 +1388,13 @@
 
 #print date abd time
 
-from datetime import datetime
+# from datetime import datetime
 
-now = datetime.now()
+# now = datetime.now()
 
-print(now)
+# print(now)
+
+#random no 
+import random
+
+print(random.randint(1, 100))
