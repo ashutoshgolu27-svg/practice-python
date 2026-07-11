@@ -1370,10 +1370,18 @@
 #     print(ch, "=", text.count(ch))
 
 #student percentage
-name = "Rahul"
-marks = [80, 90, 70, 85, 95]
+# name = "Rahul"
+# marks = [80, 90, 70, 85, 95]
 
-percentage = sum(marks) / len(marks)
+# percentage = sum(marks) / len(marks)
 
-print("Name:", name)
-print("Percentage:", percentage)
+# print("Name:", name)
+# print("Percentage:", percentage)
+
+#merge two lists
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+result = list1 + list2
+
+print(result)
