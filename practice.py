@@ -1424,6 +1424,14 @@
 # print(result)
 
 #count occurance
-nums = [1, 2, 2, 2, 3]
+# nums = [1, 2, 2, 2, 3]
 
-print(nums.count(2))
+# print(nums.count(2))
+
+#celcius to fehrenheit
+
+c = 37
+
+f = (c * 9/5) + 32
+
+print(f)
