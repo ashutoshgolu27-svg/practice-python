@@ -1407,10 +1407,18 @@
 
 #string without len()
 
+# text = "Python"
+# count = 0
+
+# for i in text:
+#     count += 1
+
+# print(count)
+
+#convert string into list
+
 text = "Python"
-count = 0
 
-for i in text:
-    count += 1
+result = list(text)
 
-print(count)
+print(result)
