@@ -1395,6 +1395,12 @@
 # print(now)
 
 #random no 
-import random
+# import random
 
-print(random.randint(1, 100))
+# print(random.randint(1, 100))
+
+#second largest no 
+nums = [10, 20, 50, 40, 30]
+
+nums.sort()
+print(nums[-2])
