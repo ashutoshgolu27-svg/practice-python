@@ -1400,7 +1400,17 @@
 # print(random.randint(1, 100))
 
 #second largest no 
-nums = [10, 20, 50, 40, 30]
+# nums = [10, 20, 50, 40, 30]
 
-nums.sort()
-print(nums[-2])
+# nums.sort()
+# print(nums[-2])
+
+#string without len()
+
+text = "Python"
+count = 0
+
+for i in text:
+    count += 1
+
+print(count)
