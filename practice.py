@@ -1445,10 +1445,20 @@
 # print(area)
 
 #simple interest
-p = 10000
-r = 5
-t = 2
+# p = 10000
+# r = 5
+# t = 2
 
-si = (p*r*t)/100
+# si = (p*r*t)/100
 
-print(si)
+# print(si)
+
+#calculate percentage
+marks = [80, 90, 70, 85, 95]
+
+total = sum(marks)
+
+percentage = total / len(marks)
+
+print("Total =", total)
+print("Percentage =", percentage)
