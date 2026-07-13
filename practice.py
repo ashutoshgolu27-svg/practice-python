@@ -1430,8 +1430,16 @@
 
 #celcius to fehrenheit
 
-c = 37
+# c = 37
 
-f = (c * 9/5) + 32
+# f = (c * 9/5) + 32
 
-print(f)
+# print(f)
+
+#area of circle
+
+r = 5
+
+area = 3.14 * r * r
+
+print(area)
