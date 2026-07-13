@@ -1438,8 +1438,17 @@
 
 #area of circle
 
+# r = 5
+
+# area = 3.14 * r * r
+
+# print(area)
+
+#simple interest
+p = 10000
 r = 5
+t = 2
 
-area = 3.14 * r * r
+si = (p*r*t)/100
 
-print(area)
+print(si)
