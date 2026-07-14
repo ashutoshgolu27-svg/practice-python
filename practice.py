@@ -1483,8 +1483,16 @@
 # print(transpose)
 
 #flattenn nested list 
-data = [[1, 2], [3, 4], [5, 6]]
+# data = [[1, 2], [3, 4], [5, 6]]
 
-flat = [item for row in data for item in row]
+# flat = [item for row in data for item in row]
 
-print(flat)
+# print(flat)
+
+#merge dictionary
+d1 = {"a": 1}
+d2 = {"b": 2}
+
+d3 = d1 | d2
+
+print(d3)
