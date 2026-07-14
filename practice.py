@@ -1464,10 +1464,20 @@
 # print("Percentage =", percentage)
 
 #sum of even nos
-total = 0
+# total = 0
 
-for i in range(1, 11):
-    if i % 2 == 0:
-        total += i
+# for i in range(1, 11):
+#     if i % 2 == 0:
+#         total += i
 
-print(total)
+# print(total)
+
+#transpose matrix 
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6]
+]
+
+transpose = list(zip(*matrix))
+
+print(transpose)
