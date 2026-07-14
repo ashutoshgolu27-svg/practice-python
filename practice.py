@@ -1473,11 +1473,18 @@
 # print(total)
 
 #transpose matrix 
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6]
-]
+# matrix = [
+#     [1, 2, 3],
+#     [4, 5, 6]
+# ]
 
-transpose = list(zip(*matrix))
+# transpose = list(zip(*matrix))
 
-print(transpose)
+# print(transpose)
+
+#flattenn nested list 
+data = [[1, 2], [3, 4], [5, 6]]
+
+flat = [item for row in data for item in row]
+
+print(flat)
