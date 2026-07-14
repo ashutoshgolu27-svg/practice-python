@@ -1498,12 +1498,19 @@
 # print(d3)
 
 #count lowercase letters
-text = "PyTHon"
+# text = "PyTHon"
 
-count = 0
+# count = 0
 
-for ch in text:
-    if ch.islower():
-        count += 1
+# for ch in text:
+#     if ch.islower():
+#         count += 1
 
-print(count)
+# print(count)
+
+#find largest word
+text = "I Love Python Programming"
+
+words = text.split()
+
+print(max(words, key=len))
