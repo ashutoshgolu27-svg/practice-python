@@ -1509,8 +1509,18 @@
 # print(count)
 
 #find largest word
-text = "I Love Python Programming"
+# text = "I Love Python Programming"
 
-words = text.split()
+# words = text.split()
 
-print(max(words, key=len))
+# print(max(words, key=len))
+
+#transpose matrix
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6]
+]
+
+transpose = list(zip(*matrix))
+
+print(transpose)
