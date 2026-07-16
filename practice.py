@@ -1539,6 +1539,16 @@
 #     print("List is Empty")
 
 #count frequency of element 
-nums = [1, 2, 3, 2, 4]
+# nums = [1, 2, 3, 2, 4]
 
-print(nums.count(2))
+# print(nums.count(2))
+
+#check perfect number
+num = 28
+sum1 = 0
+
+for i in range(1, num):
+    if num % i == 0:
+        sum1 += i
+
+print(sum1 == num)
