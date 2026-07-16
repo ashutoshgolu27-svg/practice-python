@@ -1526,8 +1526,14 @@
 # print(transpose)
 
 #swap first & last elemnt in list
-nums = [10, 20, 30, 40, 50]
+# nums = [10, 20, 30, 40, 50]
 
-nums[0], nums[-1] = nums[-1], nums[0]
+# nums[0], nums[-1] = nums[-1], nums[0]
 
-print(nums)
+# print(nums)
+
+#check list is empty
+data = []
+
+if not data:
+    print("List is Empty")
