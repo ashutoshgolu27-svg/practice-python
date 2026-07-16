@@ -1516,11 +1516,18 @@
 # print(max(words, key=len))
 
 #transpose matrix
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6]
-]
+# matrix = [
+#     [1, 2, 3],
+#     [4, 5, 6]
+# ]
 
-transpose = list(zip(*matrix))
+# transpose = list(zip(*matrix))
 
-print(transpose)
+# print(transpose)
+
+#swap first & last elemnt in list
+nums = [10, 20, 30, 40, 50]
+
+nums[0], nums[-1] = nums[-1], nums[0]
+
+print(nums)
