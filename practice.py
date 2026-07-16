@@ -1533,7 +1533,12 @@
 # print(nums)
 
 #check list is empty
-data = []
+# data = []
 
-if not data:
-    print("List is Empty")
+# if not data:
+#     print("List is Empty")
+
+#count frequency of element 
+nums = [1, 2, 3, 2, 4]
+
+print(nums.count(2))
