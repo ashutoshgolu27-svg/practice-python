@@ -1544,11 +1544,13 @@
 # print(nums.count(2))
 
 #check perfect number
-num = 28
-sum1 = 0
+# num = 28
+# sum1 = 0
 
-for i in range(1, num):
-    if num % i == 0:
-        sum1 += i
+# for i in range(1, num):
+#     if num % i == 0:
+#         sum1 += i
 
-print(sum1 == num)
+# print(sum1 == num)
+
+print(chr(97))
