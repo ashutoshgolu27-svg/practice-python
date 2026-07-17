@@ -1596,11 +1596,26 @@
 
 #oops simple class
 
-class Student:
+# class Student:
 
-    def display(self):
-        print("Welcome to Python")
+#     def display(self):
+#         print("Welcome to Python")
 
-obj = Student()
+# obj = Student()
 
-obj.display()
+# obj.display()
+
+#method overriding
+class Parent:
+
+    def show(self):
+        print("Parent")
+
+class Child(Parent):
+
+    def show(self):
+        print("Child")
+
+obj = Child()
+
+obj.show()
