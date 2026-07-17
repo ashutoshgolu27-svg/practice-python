@@ -1553,4 +1553,13 @@
 
 # print(sum1 == num)
 
-print(chr(97))
+#ascii to character
+# print(chr(97))
+
+#find gcd hcf
+import math
+
+a = 24
+b = 36
+
+print(math.gcd(a, b))
