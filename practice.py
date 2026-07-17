@@ -1578,8 +1578,18 @@
 # print(sum1 == product)
 
 #sort string alphabetically
-text = "python"
+# text = "python"
 
-result = "".join(sorted(text))
+# result = "".join(sorted(text))
 
-print(result)
+# print(result)
+
+#check pangram
+
+import string
+
+text = "the quick brown fox jumps over the lazy dog"
+
+alphabet = set(string.ascii_lowercase)
+
+print(alphabet <= set(text.lower()))
