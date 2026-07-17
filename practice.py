@@ -1557,9 +1557,22 @@
 # print(chr(97))
 
 #find gcd hcf
-import math
+# import math
 
-a = 24
-b = 36
+# a = 24
+# b = 36
 
-print(math.gcd(a, b))
+# print(math.gcd(a, b))
+
+#check spy number
+
+num = 123
+
+sum1 = 0
+product = 1
+
+for digit in str(num):
+    sum1 += int(digit)
+    product *= int(digit)
+
+print(sum1 == product)
