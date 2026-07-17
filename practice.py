@@ -1586,10 +1586,21 @@
 
 #check pangram
 
-import string
+# import string
 
-text = "the quick brown fox jumps over the lazy dog"
+# text = "the quick brown fox jumps over the lazy dog"
 
-alphabet = set(string.ascii_lowercase)
+# alphabet = set(string.ascii_lowercase)
 
-print(alphabet <= set(text.lower()))
+# print(alphabet <= set(text.lower()))
+
+#oops simple class
+
+class Student:
+
+    def display(self):
+        print("Welcome to Python")
+
+obj = Student()
+
+obj.display()
