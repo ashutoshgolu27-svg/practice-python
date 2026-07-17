@@ -1566,13 +1566,20 @@
 
 #check spy number
 
-num = 123
+# num = 123
 
-sum1 = 0
-product = 1
+# sum1 = 0
+# product = 1
 
-for digit in str(num):
-    sum1 += int(digit)
-    product *= int(digit)
+# for digit in str(num):
+#     sum1 += int(digit)
+#     product *= int(digit)
 
-print(sum1 == product)
+# print(sum1 == product)
+
+#sort string alphabetically
+text = "python"
+
+result = "".join(sorted(text))
+
+print(result)
