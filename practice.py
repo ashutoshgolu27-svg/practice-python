@@ -1627,8 +1627,15 @@
 # print(result)
 
 #filter example
-nums = [1,2,3,4,5,6]
+# nums = [1,2,3,4,5,6]
 
-result = list(filter(lambda x: x%2==0, nums))
+# result = list(filter(lambda x: x%2==0, nums))
 
-print(result)
+# print(result)
+
+#numpy reshape
+import numpy as np
+
+arr = np.arange(1,13)
+
+print(arr.reshape(3,4))
