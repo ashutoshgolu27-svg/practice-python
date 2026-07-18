@@ -1648,8 +1648,15 @@
 # print(np.mean(arr))
 
 #numpy median
+# import numpy as np
+
+# arr = np.array([10,20,30,40])
+
+# print(np.median(arr))
+
+#numpy maximum
 import numpy as np
 
-arr = np.array([10,20,30,40])
+arr = np.array([10,50,30,80])
 
-print(np.median(arr))
+print(np.max(arr))
