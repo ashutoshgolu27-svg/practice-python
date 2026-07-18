@@ -1606,16 +1606,22 @@
 # obj.display()
 
 #method overriding
-class Parent:
+# class Parent:
 
-    def show(self):
-        print("Parent")
+#     def show(self):
+#         print("Parent")
 
-class Child(Parent):
+# class Child(Parent):
 
-    def show(self):
-        print("Child")
+#     def show(self):
+#         print("Child")
 
-obj = Child()
+# obj = Child()
+# obj.show()
 
-obj.show()
+#map examples
+nums = [1,2,3,4]
+
+result = list(map(lambda x: x*x, nums))
+
+print(result)
