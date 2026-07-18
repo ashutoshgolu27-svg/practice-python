@@ -1641,8 +1641,15 @@
 # print(arr.reshape(3,4))
 
 #numpy mean
+# import numpy as np
+
+# arr = np.array([10,20,30,40])
+
+# print(np.mean(arr))
+
+#numpy median
 import numpy as np
 
 arr = np.array([10,20,30,40])
 
-print(np.mean(arr))
+print(np.median(arr))
