@@ -1620,8 +1620,15 @@
 # obj.show()
 
 #map examples
-nums = [1,2,3,4]
+# nums = [1,2,3,4]
 
-result = list(map(lambda x: x*x, nums))
+# result = list(map(lambda x: x*x, nums))
+
+# print(result)
+
+#filter example
+nums = [1,2,3,4,5,6]
+
+result = list(filter(lambda x: x%2==0, nums))
 
 print(result)
