@@ -1663,8 +1663,13 @@
 
 #copy list using slicing
 
-nums = [1, 2, 3]
+# nums = [1, 2, 3]
 
-copy_nums = nums[:]
+# copy_nums = nums[:]
 
-print(copy_nums)
+# print(copy_nums)
+
+#nested list access
+data = [[10, 20], [30, 40]]
+
+print(data[1][1])
