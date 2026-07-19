@@ -1670,6 +1670,11 @@
 # print(copy_nums)
 
 #nested list access
-data = [[10, 20], [30, 40]]
+# data = [[10, 20], [30, 40]]
 
-print(data[1][1])
+# print(data[1][1])
+
+#tuple packing
+data = 10, 20, 30
+
+print(data)
