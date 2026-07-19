@@ -1655,8 +1655,16 @@
 # print(np.median(arr))
 
 #numpy maximum
-import numpy as np
+# import numpy as np
 
-arr = np.array([10,50,30,80])
+# arr = np.array([10,50,30,80])
 
-print(np.max(arr))
+# print(np.max(arr))
+
+#copy list using slicing
+
+nums = [1, 2, 3]
+
+copy_nums = nums[:]
+
+print(copy_nums)
