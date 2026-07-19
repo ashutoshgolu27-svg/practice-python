@@ -1675,6 +1675,13 @@
 # print(data[1][1])
 
 #tuple packing
-data = 10, 20, 30
+# data = 10, 20, 30
 
-print(data)
+# print(data)
+
+#tuple unpacking
+a, b, c = (10, 20, 30)
+
+print(a)
+print(b)
+print(c)
