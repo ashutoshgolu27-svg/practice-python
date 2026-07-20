@@ -1687,6 +1687,11 @@
 # print(c)
 
 #check object type
-num = 100
+# num = 100
 
-print(isinstance(num, int))
+# print(isinstance(num, int))
+
+#octal conversion 
+num = 10
+
+print(oct(num))
