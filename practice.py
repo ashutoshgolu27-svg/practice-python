@@ -1697,6 +1697,11 @@
 # print(oct(num))
 
 #binary conversion
-num = 10
+# num = 10
 
-print(bin(num))
+# print(bin(num))
+
+#hexamdecimal conversion
+num = 255
+
+print(hex(num))
