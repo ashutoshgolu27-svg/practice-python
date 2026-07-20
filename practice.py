@@ -1692,6 +1692,11 @@
 # print(isinstance(num, int))
 
 #octal conversion 
+# num = 10
+
+# print(oct(num))
+
+#binary conversion
 num = 10
 
-print(oct(num))
+print(bin(num))
