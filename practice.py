@@ -1680,8 +1680,13 @@
 # print(data)
 
 #tuple unpacking
-a, b, c = (10, 20, 30)
+# a, b, c = (10, 20, 30)
 
-print(a)
-print(b)
-print(c)
+# print(a)
+# print(b)
+# print(c)
+
+#check object type
+num = 100
+
+print(isinstance(num, int))
