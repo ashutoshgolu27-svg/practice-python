@@ -1702,6 +1702,11 @@
 # print(bin(num))
 
 #hexamdecimal conversion
-num = 255
+# num = 255
 
-print(hex(num))
+# print(hex(num))
+
+#sorted function
+nums = [50, 10, 30]
+
+print(sorted(nums))
