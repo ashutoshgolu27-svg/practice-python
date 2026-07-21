@@ -1731,7 +1731,13 @@
 # print(student)
 
 #set union
-a = {1, 2, 3}
-b = {3, 4, 5}
+# a = {1, 2, 3}
+# b = {3, 4, 5}
 
-print(a.union(b))
+# print(a.union(b))
+
+#set intersection
+a = {1, 2, 3}
+b = {2, 3, 4}
+
+print(a.intersection(b))
