@@ -1737,7 +1737,13 @@
 # print(a.union(b))
 
 #set intersection
+# a = {1, 2, 3}
+# b = {2, 3, 4}
+
+# print(a.intersection(b))
+
+#set difference
 a = {1, 2, 3}
 b = {2, 3, 4}
 
-print(a.intersection(b))
+print(a.difference(b))
