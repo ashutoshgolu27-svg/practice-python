@@ -1743,7 +1743,12 @@
 # print(a.intersection(b))
 
 #set difference
-a = {1, 2, 3}
-b = {2, 3, 4}
+# a = {1, 2, 3}
+# b = {2, 3, 4}
 
-print(a.difference(b))
+# print(a.difference(b))
+
+#dictionary get method
+student = {"Name": "Rahul"}
+
+print(student.get("Name"))
