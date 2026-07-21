@@ -1712,10 +1712,20 @@
 # print(sorted(nums))
 
 #Reduce function
-from functools import reduce
+# from functools import reduce
 
-nums = [1, 2, 3, 4]
+# nums = [1, 2, 3, 4]
 
-result = reduce(lambda x, y: x + y, nums)
+# result = reduce(lambda x, y: x + y, nums)
 
-print(result)
+# print(result)
+
+#dictionary pop
+student = {
+    "Name": "Rahul",
+    "Age": 22
+}
+
+student.pop("Age")
+
+print(student)
