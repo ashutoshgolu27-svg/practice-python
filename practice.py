@@ -1707,6 +1707,15 @@
 # print(hex(num))
 
 #sorted function
-nums = [50, 10, 30]
+# nums = [50, 10, 30]
 
-print(sorted(nums))
+# print(sorted(nums))
+
+#Reduce function
+from functools import reduce
+
+nums = [1, 2, 3, 4]
+
+result = reduce(lambda x, y: x + y, nums)
+
+print(result)
