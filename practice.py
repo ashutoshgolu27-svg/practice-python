@@ -1721,11 +1721,17 @@
 # print(result)
 
 #dictionary pop
-student = {
-    "Name": "Rahul",
-    "Age": 22
-}
+# student = {
+#     "Name": "Rahul",
+#     "Age": 22
+# }
 
-student.pop("Age")
+# student.pop("Age")
 
-print(student)
+# print(student)
+
+#set union
+a = {1, 2, 3}
+b = {3, 4, 5}
+
+print(a.union(b))
