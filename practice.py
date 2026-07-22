@@ -1764,9 +1764,15 @@
 
 #generator
 
-def count():
-    for i in range(1, 6):
-        yield i
+# def count():
+#     for i in range(1, 6):
+#         yield i
 
-for i in count():
+# for i in count():
+#     print(i)
+
+#generator expression
+square = (x*x for x in range(5))
+
+for i in square:
     print(i)
