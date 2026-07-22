@@ -1749,6 +1749,15 @@
 # print(a.difference(b))
 
 #dictionary get method
-student = {"Name": "Rahul"}
+# student = {"Name": "Rahul"}
 
-print(student.get("Name"))
+# print(student.get("Name"))
+
+#iterator
+nums = [10, 20, 30]
+
+itr = iter(nums)
+
+print(next(itr))
+print(next(itr))
+print(next(itr))
