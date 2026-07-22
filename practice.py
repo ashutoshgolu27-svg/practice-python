@@ -1772,7 +1772,23 @@
 #     print(i)
 
 #generator expression
-square = (x*x for x in range(5))
+# square = (x*x for x in range(5))
 
-for i in square:
-    print(i)
+# for i in square:
+#     print(i)
+
+#decorator
+def decorator(func):
+
+    def wrapper():
+        print("Before Function")
+        func()
+        print("After Function")
+
+    return wrapper
+
+@decorator
+def hello():
+    print("Hello Python")
+
+hello()
