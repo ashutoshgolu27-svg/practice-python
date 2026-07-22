@@ -1754,10 +1754,19 @@
 # print(student.get("Name"))
 
 #iterator
-nums = [10, 20, 30]
+# nums = [10, 20, 30]
 
-itr = iter(nums)
+# itr = iter(nums)
 
-print(next(itr))
-print(next(itr))
-print(next(itr))
+# print(next(itr))
+# print(next(itr))
+# print(next(itr))
+
+#generator
+
+def count():
+    for i in range(1, 6):
+        yield i
+
+for i in count():
+    print(i)
