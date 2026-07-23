@@ -1801,6 +1801,15 @@
 # print(today.strftime("%d-%m-%Y"))
 
 #current time
-from datetime import datetime
+# from datetime import datetime
 
-print(datetime.now().time())
+# print(datetime.now().time())
+
+#regex search
+import re
+
+text = "Python is easy"
+
+result = re.search("Python", text)
+
+print(result)
