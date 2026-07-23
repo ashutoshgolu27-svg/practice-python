@@ -1794,8 +1794,13 @@
 # hello()
 
 #date formating
+# from datetime import datetime
+
+# today = datetime.now()
+
+# print(today.strftime("%d-%m-%Y"))
+
+#current time
 from datetime import datetime
 
-today = datetime.now()
-
-print(today.strftime("%d-%m-%Y"))
+print(datetime.now().time())
