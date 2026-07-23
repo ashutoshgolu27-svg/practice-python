@@ -1778,17 +1778,24 @@
 #     print(i)
 
 #decorator
-def decorator(func):
+# def decorator(func):
 
-    def wrapper():
-        print("Before Function")
-        func()
-        print("After Function")
+#     def wrapper():
+#         print("Before Function")
+#         func()
+#         print("After Function")
 
-    return wrapper
+#     return wrapper
 
-@decorator
-def hello():
-    print("Hello Python")
+#decorator example
+# def hello():
+#     print("Hello Python")
 
-hello()
+# hello()
+
+#date formating
+from datetime import datetime
+
+today = datetime.now()
+
+print(today.strftime("%d-%m-%Y"))
