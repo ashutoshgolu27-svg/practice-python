@@ -1833,10 +1833,19 @@
 # print(result)
 
 #email validation
-import re
+# import re
 
-email = "test@gmail.com"
+# email = "test@gmail.com"
 
-pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
+# pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
 
-print(bool(re.match(pattern, email)))
+# print(bool(re.match(pattern, email)))
+
+#read json
+import json
+
+data = '{"name":"Rahul","age":22}'
+
+result = json.loads(data)
+
+print(result)
