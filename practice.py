@@ -1824,10 +1824,19 @@
 # print(result)
 
 #regex replace
+# import re
+
+# text = "I love Java"
+
+# result = re.sub("Java", "Python", text)
+
+# print(result)
+
+#email validation
 import re
 
-text = "I love Java"
+email = "test@gmail.com"
 
-result = re.sub("Java", "Python", text)
+pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
 
-print(result)
+print(bool(re.match(pattern, email)))
