@@ -1815,10 +1815,19 @@
 # print(result)
 
 #regex findall
+# import re
+
+# text = "abc123xyz456"
+
+# result = re.findall(r'\d+', text)
+
+# print(result)
+
+#regex replace
 import re
 
-text = "abc123xyz456"
+text = "I love Java"
 
-result = re.findall(r'\d+', text)
+result = re.sub("Java", "Python", text)
 
 print(result)
