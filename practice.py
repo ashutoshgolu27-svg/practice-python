@@ -1806,10 +1806,19 @@
 # print(datetime.now().time())
 
 #regex search
+# import re
+
+# text = "Python is easy"
+
+# result = re.search("Python", text)
+
+# print(result)
+
+#regex findall
 import re
 
-text = "Python is easy"
+text = "abc123xyz456"
 
-result = re.search("Python", text)
+result = re.findall(r'\d+', text)
 
 print(result)
