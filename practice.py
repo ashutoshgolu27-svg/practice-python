@@ -1851,8 +1851,15 @@
 # print(result)
 
 #numpy standard deviation
+# import numpy as np
+
+# arr = np.array([10,20,30,40])
+
+# print(np.std(arr))
+
+#numpy sum 
 import numpy as np
 
-arr = np.array([10,20,30,40])
+arr = np.array([10,20,30])
 
-print(np.std(arr))
+print(np.sum(arr))
