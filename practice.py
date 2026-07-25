@@ -1842,10 +1842,17 @@
 # print(bool(re.match(pattern, email)))
 
 #read json
-import json
+# import json
 
-data = '{"name":"Rahul","age":22}'
+# data = '{"name":"Rahul","age":22}'
 
-result = json.loads(data)
+# result = json.loads(data)
 
-print(result)
+# print(result)
+
+#numpy standard deviation
+import numpy as np
+
+arr = np.array([10,20,30,40])
+
+print(np.std(arr))
