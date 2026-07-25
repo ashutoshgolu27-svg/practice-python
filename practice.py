@@ -1858,8 +1858,15 @@
 # print(np.std(arr))
 
 #numpy sum 
+# import numpy as np
+
+# arr = np.array([10,20,30])
+
+# print(np.sum(arr))
+
+#numpy unique values
 import numpy as np
 
-arr = np.array([10,20,30])
+arr = np.array([1,2,2,3,3,4])
 
-print(np.sum(arr))
+print(np.unique(arr))
