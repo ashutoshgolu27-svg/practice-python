@@ -1872,6 +1872,13 @@
 # print(np.unique(arr))
 
 #check list is sorted
-nums = [10, 20, 30, 40]
+# nums = [10, 20, 30, 40]
 
-print(nums == sorted(nums))
+# print(nums == sorted(nums))
+
+#find smallest number
+nums = [50, 10, 30, 20, 40]
+
+nums = sorted(nums)
+
+print(nums[1])
