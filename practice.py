@@ -1877,8 +1877,13 @@
 # print(nums == sorted(nums))
 
 #find smallest number
-nums = [50, 10, 30, 20, 40]
+# nums = [50, 10, 30, 20, 40]
 
-nums = sorted(nums)
+# nums = sorted(nums)
 
-print(nums[1])
+# print(nums[1])
+
+#find index of minimum value
+nums = [10, 50, 20, 80, 30]
+
+print(nums.index(max(nums)))
