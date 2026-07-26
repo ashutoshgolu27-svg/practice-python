@@ -1889,6 +1889,19 @@
 # print(nums.index(max(nums)))
 
 #count specific count
-text = "programming"
+# text = "programming"
 
-print(text.count("m"))
+# print(text.count("m"))
+
+#remove vowels
+text = "Python Programming"
+
+vowels = "aeiouAEIOU"
+
+result = ""
+
+for ch in text:
+    if ch not in vowels:
+        result += ch
+
+print(result)
