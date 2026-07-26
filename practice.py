@@ -1865,8 +1865,13 @@
 # print(np.sum(arr))
 
 #numpy unique values
-import numpy as np
+# import numpy as np
 
-arr = np.array([1,2,2,3,3,4])
+# arr = np.array([1,2,2,3,3,4])
 
-print(np.unique(arr))
+# print(np.unique(arr))
+
+#check list is sorted
+nums = [10, 20, 30, 40]
+
+print(nums == sorted(nums))
