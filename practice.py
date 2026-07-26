@@ -1884,6 +1884,11 @@
 # print(nums[1])
 
 #find index of minimum value
-nums = [10, 50, 20, 80, 30]
+# nums = [10, 50, 20, 80, 30]
 
-print(nums.index(max(nums)))
+# print(nums.index(max(nums)))
+
+#count specific count
+text = "programming"
+
+print(text.count("m"))
