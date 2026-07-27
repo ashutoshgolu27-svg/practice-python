@@ -1923,10 +1923,20 @@
 # print(a+b)
 
 #check prime no in range
-for num in range(2,21):
+# for num in range(2,21):
 
-    for i in range(2,num):
-        if num%i==0:
-            break
-    else:
-        print(num)
+#     for i in range(2,num):
+#         if num%i==0:
+#             break
+#     else:
+#         print(num)
+
+#try except else
+try:
+    num = 10 / 2
+
+except:
+    print("Error")
+
+else:
+    print("Success")
