@@ -1915,9 +1915,18 @@
 # print(np.dot(a,b))
 
 #numpy array addition 
-import numpy as np
+# import numpy as np
 
-a = np.array([1,2,3])
-b = np.array([4,5,6])
+# a = np.array([1,2,3])
+# b = np.array([4,5,6])
 
-print(a+b)
+# print(a+b)
+
+#check prime no in range
+for num in range(2,21):
+
+    for i in range(2,num):
+        if num%i==0:
+            break
+    else:
+        print(num)
