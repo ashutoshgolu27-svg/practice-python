@@ -1907,9 +1907,17 @@
 # print(result)
 
 #numpy matrix multiplication
+# import numpy as np
+
+# a = np.array([[1,2],[3,4]])
+# b = np.array([[5,6],[7,8]])
+
+# print(np.dot(a,b))
+
+#numpy array addition 
 import numpy as np
 
-a = np.array([[1,2],[3,4]])
-b = np.array([[5,6],[7,8]])
+a = np.array([1,2,3])
+b = np.array([4,5,6])
 
-print(np.dot(a,b))
+print(a+b)
