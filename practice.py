@@ -1894,14 +1894,22 @@
 # print(text.count("m"))
 
 #remove vowels
-text = "Python Programming"
+# text = "Python Programming"
 
-vowels = "aeiouAEIOU"
+# vowels = "aeiouAEIOU"
 
-result = ""
+# result = ""
 
-for ch in text:
-    if ch not in vowels:
-        result += ch
+# for ch in text:
+#     if ch not in vowels:
+#         result += ch
 
-print(result)
+# print(result)
+
+#numpy matrix multiplication
+import numpy as np
+
+a = np.array([[1,2],[3,4]])
+b = np.array([[5,6],[7,8]])
+
+print(np.dot(a,b))
