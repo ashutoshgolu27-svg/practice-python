@@ -1932,11 +1932,15 @@
 #         print(num)
 
 #try except else
-try:
-    num = 10 / 2
+# try:
+#     num = 10 / 2
 
-except:
-    print("Error")
+# except:
+#     print("Error")
 
-else:
-    print("Success")
+# else:
+#     print("Success")
+
+#number pyramid
+for i in range(1,6):
+    print(str(i) * i)
